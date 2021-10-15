@@ -11877,11 +11877,12 @@ img {vertical-align: middle;}
 }
 
 
-.row1 {
+
+.row1z {
   display: flex;
 }
 
-.column1 {
+.column1z {
   flex: 33.33%;
   padding: 10px;
 }
