@@ -11412,9 +11412,11 @@ p {
 }
 .cta1 .cta-inner1 {
   position: relative;
-  padding: 1rem;
+  padding: 5rem;
   margin: 0.5rem;
 }
+
+
 
 
 .cta1 .cta-inner1:before {
@@ -11878,11 +11880,12 @@ img {vertical-align: middle;}
 
 
 
-.row1z {
+
+.row1 {
   display: flex;
 }
 
-.column1z {
+.column1 {
   flex: 33.33%;
   padding: 10px;
 }
