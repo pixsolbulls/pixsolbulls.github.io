@@ -104,7 +104,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.2;
 }
 
@@ -11895,3 +11895,186 @@ img {vertical-align: middle;}
   flex: 33.33%;
   padding: 10px;
 }
+.containernft {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr 0.9fr 0.9fr 0.9fr 0.9fr 1.4fr;
+  grid-template-rows: 0.3fr 0.4fr 0.4fr 0.3fr 0.4fr 0.4fr 0.4fr 0.3fr 0.4fr 0.4fr 0.4fr 0.4fr 0.4fr 0.4fr 0.3fr 0.4fr 0.4fr 0.4fr 0.3fr 0.4fr 0.4fr 0.4fr;
+  grid-auto-columns: 1fr;
+  gap: 15px 15px;
+
+  grid-auto-flow: row;
+  
+  grid-template-areas:
+    ". . background background background . ."
+    ". blue cyan green limegreen pink ."
+    ". . purple . salmon-pink . ."
+    ". . eye-wear eye-wear eye-wear . ."
+    ". fg flg fp fr fy ."
+    ". cn sn dd rs vrr ."
+    ". be re em ep wg ."
+    ". . headwear headwear headwear . ."
+    ". bfc gfc rfc gb rb ."
+    ". yb bb gc rc yc ."
+    ". bc th chh dch pc ."
+    ". ybb rbb gbb pbb cc ."
+    ". bmm gmm rmm ghh rhh ."
+    ". . bhh . lgbtqhh . ."
+    ". . smokes smokes smokes . ."
+    ". . sbb scc spp . ."
+    ". . svv sgb sspb . ."
+    ". . srbb . syb . ."
+    ". . lowerface lowerface lowerface . ."
+    ". cb fb fmb bbb sbbb ."
+    ". mb hhb mdm ccm bbm ."
+    ". . ls bt rcc . .";
+}
+
+.blue { grid-area: blue;}
+
+.limegreen { grid-area: limegreen; }
+
+.background { grid-area: background; }
+
+.pink { grid-area: pink; }
+
+.purple { grid-area: purple; }
+
+.salmon-pink { grid-area: salmon-pink; }
+
+.cyan { grid-area: cyan; }
+
+.eye-wear { grid-area: eye-wear; }
+
+.green { grid-area: green; }
+
+.fg { grid-area: fg; }
+
+.flg { grid-area: flg; }
+
+.fp { grid-area: fp; }
+
+.fr { grid-area: fr; }
+
+.fy { grid-area: fy; }
+
+.cn { grid-area: cn; }
+
+.sn { grid-area: sn; }
+
+.dd { grid-area: dd; }
+
+.rs { grid-area: rs; }
+
+.vrr { grid-area: vrr; }
+
+.be { grid-area: be; }
+
+.re { grid-area: re; }
+
+.em { grid-area: em; }
+
+.ep { grid-area: ep; }
+
+.wg { grid-area: wg; }
+
+.headwear { grid-area: headwear; }
+
+.bfc { grid-area: bfc; }
+
+.gfc { grid-area: gfc; }
+
+.rfc { grid-area: rfc; }
+
+.gb { grid-area: gb; }
+
+.rb { grid-area: rb; }
+
+.yb { grid-area: yb; }
+
+.bb { grid-area: bb; }
+
+.gc { grid-area: gc; }
+
+.rc { grid-area: rc; }
+
+.yc { grid-area: yc; }
+
+.bc { grid-area: bc; }
+
+.th { grid-area: th; }
+
+.dch { grid-area: dch; }
+
+.chh { grid-area: chh; }
+
+.pc { grid-area: pc; }
+
+.ybb { grid-area: ybb; }
+
+.rbb { grid-area: rbb; }
+
+.gbb { grid-area: gbb; }
+
+.pbb { grid-area: pbb; }
+
+.cc { grid-area: cc; }
+
+.bmm { grid-area: bmm; }
+
+.gmm { grid-area: gmm; }
+
+.rmm { grid-area: rmm; }
+
+.ghh { grid-area: ghh; }
+
+.rhh { grid-area: rhh; }
+
+.bhh { grid-area: bhh; }
+
+.lgbtqhh { grid-area: lgbtqhh; }
+
+.smokes { grid-area: smokes; }
+
+.sbb { grid-area: sbb; }
+
+.scc { grid-area: scc; }
+
+.spp { grid-area: spp; }
+
+.svv { grid-area: svv; }
+
+.sgb { grid-area: sgb; }
+
+.sspb { grid-area: sspb; }
+
+.srbb { grid-area: srbb; }
+
+.syb { grid-area: syb; }
+
+.lowerface { grid-area: lowerface; }
+
+.cb { grid-area: cb; }
+
+.fb { grid-area: fb; }
+
+.fmb { grid-area: fmb; }
+
+.bbb { grid-area: bbb; }
+
+.sbbb { grid-area: sbbb; }
+
+.mb { grid-area: mb; }
+
+.hhb { grid-area: hhb; }
+
+.mdm { grid-area: mdm; }
+
+.ccm { grid-area: ccm; }
+
+.bbm { grid-area: bbm; }
+
+.ls { grid-area: ls; }
+
+.bt { grid-area: bt; }
+
+.rcc { grid-area: rcc; }
