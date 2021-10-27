@@ -662,11 +662,11 @@ progress {
 }
 @media (min-width: 1400px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1320px;
+    max-width: 1281px;
   }
 }
 .row {
-  --bs-gutter-x: 1.5rem;
+  --bs-gutter-x: 0.2rem;
   --bs-gutter-y: 0;
   display: flex;
   flex-wrap: wrap;
@@ -11887,8 +11887,8 @@ img {vertical-align: middle;}
 
 .row1 {
   display: flex;
-  padding-top: 1.2rem;
-  padding-bottom: 1.2rem
+  padding-top: 0.7rem;
+  padding-bottom: 0.2rem
 }
 
 .column1 {
@@ -12078,3 +12078,24 @@ img {vertical-align: middle;}
 .bt { grid-area: bt; }
 
 .rcc { grid-area: rcc; }
+
+
+.buttonds {
+  background: linear-gradient(to left,  rgb(37, 218, 17),  rgb(60, 194, 188) , rgb(102, 150, 206) ,rgb(115, 137, 211) , rgb(134, 119, 219) , rgb(178, 73, 238), rgb(203, 48, 248) );
+  border: none;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 10px 2px;
+  cursor: pointer;
+  width: 40%;
+  
+  
+}
+
+
+.button3 {border-radius: 8px;
+ }
